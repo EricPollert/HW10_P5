@@ -17,5 +17,8 @@ void arr(int (*val) [3])
   cout << endl << *(*val + 1);
   cout << endl << *(*(val + 1) + 2);
   cout << endl << *(*val) + 1;
+
+cout << endl << endl << "val[1][2] is valid in the function and equals " << val[1][2];
+  
 return;
 }
